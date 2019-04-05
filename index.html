@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+	<meta charset="UTF-8">
+	<title>Bill's</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/layout.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/component.css">
+</head>
+<body>
+	<div class="wrapper">
+		
+		<div class="bg bg-color-gray"></div>
+
+		<!-- Start header -->
+		<header class="header bg-color-primary js-header">
+			<div class="container">
+				<div class="navbar d-flex justify-content-between">
+					<div class="social-bar order-2">
+						<a href="https://dribbble.com/weirdai3" target="_blank" class="icon-btn">
+							<i class="icon icon-dribbble"></i>
+						</a>
+						<a href="https://www.behance.net/vegetable_dai" target="_blank" class="icon-btn">
+							<i class="icon icon-behance"></i>
+						</a>
+					</div>
+					<div class="navbar__nav order-1">
+						<a href="#popup-overlay" class="menu-toggle">
+							<span></span>
+							<span></span>
+						</a>
+						<div id="popup-overlay" class="popup-menu">
+							<div class="container d-flex justify-content-start">
+								<a href="#" class="popup-menu__close">
+									<span></span>
+									<span></span>
+								</a>
+							</div>
+							<ul class="container">
+								<li><a href="#about" class="popup-menu__item">About</a></li>
+								<li><a href="#skill" class="popup-menu__item">Skill</a></li>
+								<li><a href="#portfolio" class="popup-menu__item">My Portfolio</a></li>
+								<li><a href="#experience" class="popup-menu__item">Design Experience</a></li>
+								<li><a href="#contact" class="popup-menu__item">Contact</a></li>
+							</ul>
+						</div>
+					</div>					
+					
+				</div>				
+			</div>
+		</header>
+		<!-- End Header -->
+
+		<!-- Start main -->
+		<section class="main">
+			
+			<!-- Start hero -->
+			<div id="about" class="hero bg-color-primary">
+				<div class="hero__pic wow fadeIn"></div>
+				<div class="container d-flex flex-md-column flex-row align-items-md-start justify-content-between wow bounceInLeft"  data-wow-delay=".5s">
+					<div class="hero__content">
+						<h1 class="color-white">Hello<br>我是戴子軒</h1>
+					</div>
+					<a href="#contact" class="btn btn--primary btn--lg">Contact</a>
+				</div>				
+			</div>
+			<!-- End hero -->
+
+			<!-- Start skill -->
+			<div id="skill" class="skill">
+				<div class="container">
+					<h2 class="subtitle u-text-center">Skill</h2>
+					<div class="skill-group">
+						<div class="row justify-content-lg-start justify-content-md-center">
+							<div class="col-lg-6 col-12">
+								<div class="skill-card wow fadeInUp">
+									<div class="skill-card__inner">
+										<h4 class="skill-card__title">Adobe Xd</h4>
+										<p class="skill-card__text">熟悉軟體操作，能夠製作從 Wireframe 到 Mockup 再到可動 Prototype 的 App、Web 介面設計。</p>
+									</div>
+									<div class="skill-card__icon">
+										<img src="img/icons/icon-xd.svg" alt="" class="image">
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 col-12">
+								<div class="skill-card wow fadeInUp">
+									<div class="skill-card__inner">
+										<h4 class="skill-card__title">HTML & CSS</h4>
+										<p class="skill-card__text">熟悉基本觀念，能夠使用 Sublime Text 撰寫網頁，了解元件模組化與命名控管及 RWD 運作概念。</p>
+									</div>
+									<div class="skill-card__icon">
+										<img src="img/icons/icon-code.svg" alt="" class="image">
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 col-12">
+								<div class="skill-card wow fadeInUp">
+									<div class="skill-card__inner">
+										<h4 class="skill-card__title">PS & AI</h4>
+										<p class="skill-card__text">熟悉影像編輯、合成，擅長製作標誌圖像、手繪插畫，能夠製作各式 Banner、文宣品排版。</p>
+									</div>
+									<div class="skill-card__icon">
+										<img src="img/icons/icon-psai.svg" alt="" class="image">
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 col-12">
+								<div class="skill-card wow fadeInUp" data-wow-delay=".5s">
+									<div class="skill-card__inner">
+										<h4 class="skill-card__title">UX Thinking</h4>
+										<p class="skill-card__text">了解使用者需求優先的觀念，認識從 Empathize 到 Journey Map、User Story 等的使用者研究流程。</p>
+									</div>
+									<div class="skill-card__icon">
+										<img src="img/icons/icon-ux.svg" alt="" class="image">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>				
+			</div>
+			<!-- End skill -->
+
+			<!-- Start work -->
+			<div id="portfolio" class="port bg-color-primary">
+				<div class="container">
+					<h2 class="subtitle u-text-center color-white">My Portfolio</h2>
+					<div class="row justify-content-md-start justify-content-center">
+						<div class="col-lg-4 col-md-6 col-10 offset-lg-2">
+							<div class="port-card u-text-center wow flipInX" data-wow-duration=".7s">
+								<div class="port-card__pic">
+									<div class="image" style="background-image: url(img/portfolio__ui.png);"></div>
+								</div>
+								<a href="https://www.behance.net/vegetable_dai" target="_blank" class="btn btn--secondary btn--md">UI Design</a>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6 col-10">
+							<div class="port-card u-text-center wow flipInX" data-wow-duration=".7s" data-wow-delay=".5s">
+								<div class="port-card__pic">
+									<div class="image" style="background-image: url(img/portfolio__book.png);"></div>
+								</div>
+								<a href="https://issuu.com/13162/docs/portfolio-2019" target="_blank" class="btn btn--secondary btn--md">Graphic Design</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End work -->
+
+			<!-- Start experience -->
+			<div id="experience" class="experience">
+				<h2 class="subtitle u-text-center">Design Experience</h2>
+				<div class="container d-flex justify-content-center">
+					<div class="experience-group">
+						<ul>
+							<li class="wow fadeIn" data-wow-delay=".3s">
+								<h4 class="experience__title">艾度活動整合行銷</h4>
+								<h6 class="experience__date color-primary">設計助理 | May, 2017 - March, 2018</h6>
+								<p class="experience__desc">● 活動主視覺設計<br>● 宣傳EDM、海報排版<br>● 現場指標物、各類印刷、禮贈品設計<br>● 印刷發包、監督</p>
+							</li>
+							<li class="wow fadeIn" data-wow-delay=".7s">
+								<h4 class="experience__title">新一代設計展</h4>
+								<h6 class="experience__date color-primary">金點新秀設計獎[包裝設計] | May, 2016</h6>
+							</li>
+							<li class="wow fadeIn" data-wow-delay="1s">
+								<h4 class="experience__title">國立臺灣藝術大學</h4>
+								<h6 class="experience__date color-primary">臺藝大視傳週 文宣長 | 2015<br>臺藝大吉他社 美宣 | 2014</h6>								
+							</li>
+						</ul>
+					</div>
+				</div>				
+			</div>
+			<!-- End experience -->
+
+			<!-- Start contact -->
+			<div id="contact" class="contact bg-color-primary" id="contact">
+				<h2 class="subtitle u-text-center color-white">Contact me</h2>
+				<div class="container">
+					<div class="row justify-content-md-center">
+						<div class="col-md-3 d-flex flex-column wow bounceIn" data-wow-delay=".3s">
+							<a href="tel:+886-960538658" class="u-text-center">
+								<div class="contact__icon">
+									<img src="img/icons/icon-phone.svg" alt="" class="image">
+								</div>
+								<span class="text-btn">0960538658</span>
+							</a>							
+						</div>
+						<div class="col-md-3 d-flex flex-column wow bounceIn" data-wow-delay=".6s">
+							<a href="mailto:twbilldai@gmail.com" class="u-text-center">
+								<div class="contact__icon">
+									<img src="img/icons/icon-mail.svg" alt="" class="image">
+								</div>
+								<span class="text-btn">twbilldai@gmail.com</span>
+							</a>	
+						</div>
+					</div>					
+				</div>
+			</div>
+			<!-- End contact -->
+		</section>
+		<!-- End main -->
+
+		<!-- Start footer -->
+		<footer class="footer bg-color-primary">
+			<div class="container">
+				<p class="copyright color-white">Copyright ⓒ 2019 Bill Dai Design</p>
+			</div>
+		</footer>
+	</div>
+
+	<!-- JS -->
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/custom.js"></script>
+
+
+
+</body>
+</html>
