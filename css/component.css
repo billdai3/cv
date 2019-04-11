@@ -250,11 +250,13 @@
 	}
 	.popup-menu__item{
 		font-size: 48px;
+		line-height: 80px;
 	}
 }
 @media (max-width: 575px){
 	.popup-menu__item{
 		font-size: 36px;
+		line-height: 72px;
 	}
 }
 
