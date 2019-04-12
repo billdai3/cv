@@ -416,9 +416,6 @@
 		padding-top: 40px;
 		padding-left: 32px;
 	}
-	.skill-card__title{
-		text-align: center;
-	}
 	.skill-card__icon{
 		top: 0;
 		left: 50%;
@@ -429,6 +426,9 @@
 @media (max-width: 767px){
 	.skill-card__inner{
 		padding-top: 64px;
+	}
+	.skill-card__title{
+		text-align: center;
 	}
 }
 
