@@ -227,14 +227,16 @@
 .popup-menu__close span:nth-child(2){
 	transform: translate(-50%,-50%) rotate(-45deg);
 }
-.popup-menu__item{
-	display: block;
+.popup-menu ul.container{
 	text-align: center;
-	font-size: 64px;
+}
+.popup-menu__item{
+	display: inline-block;
+	font-size: 56px;
 	font-weight: 700;
 	font-family: 'Ubuntu', 'Helvetica', 'roboto', arial, sans-serif;
 	color: #515151;
-	line-height: 120px;
+	line-height: 96px;
 	transition: all 0.3s;
 }
 .popup-menu__item:hover{
